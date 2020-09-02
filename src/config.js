@@ -1,5 +1,7 @@
 export default {
   MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY:
+    "pk_test_51HMGL9JUKotgqlXyhPIe0oLmwkxHmdLlggIoGjGFFgmXfLG0GhBFtDGDP5MJhWXwUAMPPfszBO6n14Gsss3HvmCB00ShUxs9QF",
   s3: {
     REGION: "eu-central-1",
     BUCKET: "notes-app-ydu-uploads",
