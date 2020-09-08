@@ -29,3 +29,10 @@ input.form-control {
 input[type="file"] {
   width: 100%;
 }
+
+.Routes {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  height: 100vh;
+}
