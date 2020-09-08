@@ -1,6 +1,6 @@
 const dev = {
   STRIPE_KEY:
-    "sk_test_51HMGL9JUKotgqlXyD2imeWTf0tXVTIa1UdWPTPVz6UCClwKqN7IvdxemkWX13SyHccUEq2Ft8GBM1nGPf94DWufz00O5EA77PX",
+    "pk_test_51HMGL9JUKotgqlXyhPIe0oLmwkxHmdLlggIoGjGFFgmXfLG0GhBFtDGDP5MJhWXwUAMPPfszBO6n14Gsss3HvmCB00ShUxs9QF",
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-2-api-dev-attachmentsbucket-jlu7ydndy2j2",
@@ -19,7 +19,7 @@ const dev = {
 
 const prod = {
   STRIPE_KEY:
-    "sk_test_51HMGL9JUKotgqlXyD2imeWTf0tXVTIa1UdWPTPVz6UCClwKqN7IvdxemkWX13SyHccUEq2Ft8GBM1nGPf94DWufz00O5EA77PX",
+    "pk_test_51HMGL9JUKotgqlXyhPIe0oLmwkxHmdLlggIoGjGFFgmXfLG0GhBFtDGDP5MJhWXwUAMPPfszBO6n14Gsss3HvmCB00ShUxs9QF",
   s3: {
     REGION: "us-east-1",
     BUCKET: "notes-app-2-api-prod-attachmentsbucket-10cx9zhwp5f47",
