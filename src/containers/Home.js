@@ -44,7 +44,7 @@ export default function Home() {
           </ListGroupItem>
         </LinkContainer>
       ) : (
-        <LinkContainer key="new" to="/notes/new">
+        <LinkContainer key='new' to='/notes/new'>
           <ListGroupItem>
             <h4>
               <b>{"\uFF0B"}</b> Create a new note
@@ -57,14 +57,14 @@ export default function Home() {
 
   function renderLander() {
     return (
-      <div className="lander">
-        <h1>Scratch</h1>
+      <div className='lander'>
+        <h1>Serverless Note App</h1>
         <p>A simple note taking app</p>
         <div>
-          <Link to="/login" className="btn btn-info btn-lg">
+          <Link to='/login' className='btn btn-info btn-lg'>
             Login
           </Link>
-          <Link to="/signup" className="btn btn-success btn-lg">
+          <Link to='/signup' className='btn btn-success btn-lg'>
             Signup
           </Link>
         </div>
@@ -73,7 +73,7 @@ export default function Home() {
   }
   function renderNotes() {
     return (
-      <div className="notes">
+      <div className='notes'>
         <PageHeader>Your Notes</PageHeader>
         <ListGroup>{!isLoading && renderNotesList(notes)}</ListGroup>
       </div>
@@ -81,7 +81,7 @@ export default function Home() {
   }
 
   return (
-    <div className="Home">
+    <div className='Home'>
       {isAuthenticated ? renderNotes() : renderLander()}
     </div>
   );
